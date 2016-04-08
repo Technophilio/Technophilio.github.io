@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<script src="/rainbowpixelgrow/sketch.js" type="text/javascript"></script>
+
+
 <div class ="intro">
 <h1>Are you a Technophile?</h1>
 <h6>tech·no·phile  [ˈteknəˌfīl]</h6>
@@ -30,21 +33,4 @@ layout: default
   {% endfor %}
 </div>
 
-  <iframe frameBorder='0' id='home-sketch-frame' src='./rainbowpixelgrow/saved_resource.html' style="width: window.innerWidth; height: window.innerHeight; position: fixed; top: 0px; left: 0px; z-index: -2; pointer-events: auto;"></iframe>
-  <!--<div id='home-sketch-frame'></div>
-  <script src='./p5_featured/LeslieRuckman_RainbowPixelGrow/sketch.js'></script>
-  <script type='text/javascript'>
-    $('#home-sketch-frame').width(window.innerWidth);
-    $('#home-sketch-frame').height(window.innerHeight);
-
-    $('#home-sketch-frame').css('position', 'fixed');
-    $('#home-sketch-frame').css('top', '0px');
-    $('#home-sketch-frame').css('left', '0px');
-    $('#home-sketch-frame').css('z-index', '-2');
-    $('body').css('pointer-events', 'none');
-    $('iframe').css('pointer-events', 'auto');
-    $('a').css('pointer-events', 'auto');
-
-  </script>
-
-  </script>-->
+   <div id = "bgCanvas" style="position: absolute; top:0px; left:0px; z-index: -2;"></div>  

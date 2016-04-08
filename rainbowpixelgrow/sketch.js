@@ -3,7 +3,8 @@ var x;
 var y;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canv = createCanvas(windowWidth, windowHeight);
+canv.parent("bgCanvas");
 
   var gap = 10;
   for (var y = 0; y < height - gap; y += gap * 2) {
