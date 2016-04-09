@@ -4,6 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
+<div class="posts">
+  {% for project in site.projects %}
+    <article class="post">
 
+      <h1><a href="{{ site.baseurl }}{{project.url }}">{{ project.title }}</a></h1>
 
-A picture is worth a thousand words
+      <div class="entry">
+        {{ project.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ project.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
