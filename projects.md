@@ -5,13 +5,13 @@ permalink: /projects/
 ---
 
 <div class="posts">
-  {% for project in site.projects %}
+  {% for projects in site.projects %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{project.url }}">{{ project.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{projects.url }}">{{ projects.title }}</a></h1>
 
       <div class="entry">
-        {{ project.excerpt }}
+        {{ projects.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ project.url }}" class="read-more">Read More</a>
