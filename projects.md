@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 
-##Goethe-Zertifikat A1
+Goethe-Zertifikat A1
 ---
 [Play your way through the vocabulary](www.bing.com)
----
+
