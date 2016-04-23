@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canv =createCanvas(windowWidth, windowHeight);
+  canv.parent("bgCanvas");
   colorMode(HSB);
   radians(DEGREES);
 }
